@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><!--Para funcionar os icones-->
+</head>
+<body>
+
+    <header>
+        <h1>Eduardo Apolonio dos Santos</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="Habilidades.html">Habilidades</a></li>
+            <li><a href="Projetos.html">Projetos</a></li>
+            <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Minhas redes</h2>
+            <ul class="contato-links">
+                <li>
+                     <i class="fa-brands fa-github"></i>
+                    GitHub:
+                    <a href="https://github.com/EduardoApolonio" target="_blank">https://github.com/EduardoApolonio</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>
+                    Gmail:
+                    <a href="eduapolonio@edu.unifil.br">eduapolonio@edu.unifil.br</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Manda uma mensagem</h2>
+
+            <form id="formContato">
+
+                <div class="form">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" placeholder="Fala seu nome">
+                </div>
+
+                <div class="form">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="sla@email.com">
+                </div>
+
+                <div class="form">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="mensagem" placeholder="Digite algo"></textarea>
+                </div>
+
+                <button type="submit" class="botao">Enviar</button>
+
+                <p id="mensagem-retorno"></p>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p id="pFooter">Feito por Eduardo Apolonio dos Santos</p>
+    </footer>
+</body>
+</html>
